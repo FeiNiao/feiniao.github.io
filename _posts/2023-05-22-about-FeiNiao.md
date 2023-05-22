@@ -2,7 +2,7 @@
 layout: article
 title: "飞鸟"
 mathjax: true
-tags: TeXt
+tags: "about"
 article_header:
   type: cover
   image:
@@ -11,4 +11,4 @@ article_header:
 
 ## 关于我
 
-![image-20230522193517901](imgsrc/image-20230522193517901.png)
+![image-20230522193517901](https://feiniao.github.io/image-20230522193517901.png)
