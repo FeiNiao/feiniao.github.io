@@ -133,7 +133,7 @@ run Test code
 ![image](https://github.com/FeiNiao/feiniao.github.io/blob/master/_posts/images/J2IIOK49fozrMjTDTKvbGNuvRaIWmW2jZ_MLfG4mQvk.png?raw=true)
 
 # 内网信息收集
-验证是否为docker
+验证是否为docker容器
 
 ```
 /app # ls /.dockerenv
@@ -223,15 +223,14 @@ socks 1080
 依次对这三个ip进行nmap扫描
 
 ```
-s o c k s 4 版 本 协 议 不 ⽀ 持 u d p 和 i c m p 协 议 ， 所 以 使 ⽤ n m a p 要 加 上 - s T  - P n 即 使 ⽤
-t c p 协 议 且 不 使 ⽤ i c m p 协 议
+SOCKS 4版本协议不支持UDP和ICMP协议，因此在使用nmap时需要加上"-sT -Pn"选项，以使用TCP协议并禁用ICMP协议。
 ```
 
 
 题外：
 
 ```
-感觉上面那个代理不好用，cao，nmap一个完后会变得很慢不知道为啥，所以我在msf生成一个elf使用msf进行连接，顺便msf模块真好用，把端口都扫出来了。
+感觉上面那个代理不好用，nmap扫一个完后会变得很慢不知道为啥，所以我在msf生成一个elf使用msf进行连接，顺便msf模块真好用，把端口都扫出来了。
 ```
 ![image](https://github.com/FeiNiao/feiniao.github.io/blob/master/_posts/images/E7JZ42VJrC3UI1Y8wh6DxSD427RZO0uwKeShqhQEqx4.png?raw=true)
 
