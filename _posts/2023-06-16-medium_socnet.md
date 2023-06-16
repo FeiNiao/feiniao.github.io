@@ -163,8 +163,6 @@ for i in $(seq 1 10);do ping -c 1 172.17.0.$i;done
 # 隧道代理
 利用venom进行内网穿透
 
-[office](afhf_hlaiH0ACJPX5wTCd2SzhlnqyKG35rkx9kxRnx4.7z)
-
 客户端传入受害机
 
 服务端在kali上运行
@@ -213,8 +211,6 @@ socks 1080
 ![image](https://github.com/FeiNiao/feiniao.github.io/blob/master/_posts/images/5k6_hWNv4HzOK1PNYA2BqwwRnEtV4TBvzc9b0ullH1M.png?raw=true)
 
 代理完成，使用proxychains就都走1080代理端口访问内网了
-
-# 内网主机发现
 
 内网的目标有
 
@@ -355,6 +351,7 @@ jane:5c158b60ed97c723b673529b8a3cf72b 1234jane
 ![image](https://github.com/FeiNiao/feiniao.github.io/blob/master/_posts/images/4xdu54P9xLV46ZbBevHrr6VGiVYKUPWpEkbEMCbKMeo.png?raw=true)
 
 登入进行简单的id查看权限，发现是普通权限
+# 权限提升
 
 sudo -s 提权不了
 
