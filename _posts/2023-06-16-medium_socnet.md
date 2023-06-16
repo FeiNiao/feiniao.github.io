@@ -6,6 +6,7 @@ tags: "vulnhub"
 ---
 
 # medium\_socnet
+by：飞鸟(FeiNiao)
 # 主机发现
 受害机与kali为同一网段
 
