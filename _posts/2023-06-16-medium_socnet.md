@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "medium\_socnet"
+title: "Vulnhub-medium\_socnet"
 mathjax: true
 tags: "vulnhub"
 ---
